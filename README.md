@@ -15,7 +15,7 @@ It uses:
 
 1. Open the Chrome DevTools and go to the Network tab
 
-1. Open your [Twitter bookmarks](https://x.com/i/bookmarks) page
+1. Open your [Twitter bookmarks](https://x.com/i/bookmarks) page **in the same window**
 
 1. Fill env variables
 
