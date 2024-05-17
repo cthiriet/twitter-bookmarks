@@ -1,0 +1,4 @@
+/target
+/meili_data
+.env
+*.json
