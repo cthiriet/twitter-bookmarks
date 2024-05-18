@@ -13,11 +13,11 @@ It uses:
 
 1. Clone this repository
 
-1. Open the Chrome DevTools and go to the Network tab
+2. Open the Chrome DevTools and go to the Network tab
 
-1. Open your [Twitter bookmarks](https://x.com/i/bookmarks) page **in the same window**
+3. Open your [Twitter bookmarks](https://x.com/i/bookmarks) page **in the same window**
 
-1. Fill env variables
+4. Fill env variables
 
 Copy `.env.example` to `.env` and fill the variables.
 
@@ -27,13 +27,13 @@ In these screenshots, you will see the 4 env variables that need to be set (see 
 
 ![env2](assets/2.png)
 
-1. Launch meilisearch
+5. Launch meilisearch
 
 ```bash
 docker compose up -d
 ```
 
-1. Index your bookmarks
+6. Index your bookmarks
 
 ```bash
 cargo run --release
@@ -41,6 +41,6 @@ cargo run --release
 
 The script will also save the bookmarks in a `bookmarks.json` file.
 
-1. Search your bookmarks
+7. Search your bookmarks
 
 Open [`http://localhost:7700`](http://localhost:7700) in your browser.
